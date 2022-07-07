@@ -1,0 +1,17 @@
+{
+  "plugins": ["stylelint-less"],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-prettier",
+    "stylelint-config-recess-order",
+    "stylelint-config-standard-scss"
+  ],
+  "rules": {
+    "selector-class-pattern": null,
+    "font-family-no-duplicate-names": null,
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": null,
+    "color-no-invalid-hex": true,
+    "less/color-no-invalid-hex": true
+  }
+}
