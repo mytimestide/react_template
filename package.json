@@ -14,7 +14,8 @@
     "build:analy": "cross-env NODE_ENV=production BASE_ENV=production webpack -c build/webpack.analy.js",
     "eslint": "eslint --max-warnings=0",
     "pre-check": "tsc && npx lint-staged",
-    "stylelint": "stylelint"
+    "stylelint": "stylelint",
+    "commit": "git cz"
   },
   "dependencies": {
     "react": "^18.2.0",
